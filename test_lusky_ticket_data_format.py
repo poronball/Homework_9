@@ -2,7 +2,7 @@ from main import lucky_ticket
 
 def test(ticket):
     arg1 = lucky_ticket(ticket)
-    print(arg1)
-    assert  arg1 == bool()
+
+    assert arg1 != str
 
 test(123321)
